@@ -26,6 +26,22 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputAudioStream
 from pytgcalls.types.input_stream import InputStream
 
+# plus
+chat_id = None
+useer = "NaN"
+
+themes = [
+    "blue",
+    "love",
+    "cutepie",
+    "rose",
+    "Sky",
+    "pink",
+    "rabbit",
+    "mastii",
+    "cutegirl",
+    "cutedoll",
+]
 
 def transcode(filename):
     ffmpeg.input(filename).output(
@@ -68,7 +84,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                 await f.close()
 
     image1 = Image.open("./background.png")
-    image2 = Image.open("etc/foreground.png")
+    image2 = Image.open("etc/{theme}.png")
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
