@@ -183,7 +183,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/AARU_SUPPORT")
                    
                 ]
-           ] 
+           
         )
 
         requested_by = message.from_user.first_name
@@ -236,7 +236,7 @@ elif url:
                             url=f"https://t.me/AARU_SUPPORT")
                    
                 ]
-            ]
+            
         )
 
         except Exception as e:
@@ -265,7 +265,7 @@ elif url:
                             url=f"https://t.me/AARU_SUPPORT")
                    
                 ]
-            ]
+            
         )
 
         if (dur / 60) > DURATION_LIMIT:
@@ -332,7 +332,7 @@ secmul, dur, dur_arr = 1, 0, duration.split(":")
                             url=f"https://t.me/AARU_SUPPORT")
                    
                 ]
-            ]
+            
         )
 
         if (dur / 60) > DURATION_LIMIT:
