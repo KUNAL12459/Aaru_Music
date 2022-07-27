@@ -40,7 +40,7 @@
     "SUPPORT_GROUP": {
       "description": "Username of the group where users will go and disturb you, without @",
       "required": false,
-      "value": "AARU_SUPPORT"
+      "value": "jaiHindChatting"
     },
     "SUDO_USERS": {
       "description": "User IDs of the users who will counted as admin everywhere (if more than one separate them by space).",
