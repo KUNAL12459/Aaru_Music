@@ -166,17 +166,24 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="•★ᴄʜᴀɴɴᴇʟ★•", url=f"https://t.me/MISS_AARU_143"
-                    ),
-                    InlineKeyboardButton(text="•✰sᴜᴘᴘᴏʀᴛ✰•", url=f"https://t.me/love_birds_group"),
-                ],[
+                            text="•♡︎📡𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡♡︎•",
+                            url=f"https://t.me/RYMOFFICIAL")
+               ],
+               [
                     InlineKeyboardButton(
-                       text="•✯ᴏᴡɴᴇʀ✯•",url=f"https://t.me/BANNA_XD"
-                    ),
+                            text="•✰⏤͟͟͞͞x𝐃🥀| 𓆩 𝐂𝐎𝐃𝐄𝐑 𓆪✰•",
+                            url=f"https://t.me/LEGEND_CODER"),
+                            
                     InlineKeyboardButton(
-                      text="•✵ɢʀᴏᴜᴘ✵•",url=f"https://t.me./LOVE_BIRDS_123"
-                    ),
-                 ]   
+                            text="•★🥀𝐌𝐨𝐯𝐢𝐞𝐬🥀★•",
+                            url=f"https://t.me/SonalModdingGod")
+               ],
+               [
+                        InlineKeyboardButton(
+                            text="•☆⭐𝐆𝐫𝐨𝐮𝐩⭐☆•",
+                            url=f"https://t.me/JaiHindChatting")
+                   
+                ]
             ]
         )
 
@@ -209,44 +216,58 @@ async def play(_, message: Message):
                 secmul *= 60
 
             keyboard = InlineKeyboardMarkup(
+             [
                 [
-                    [
-                           InlineKeyboardButton(
-                              text="•★ᴄʜᴀɴɴᴇʟ★•", url=f"https://t.me/MISS_AARU_143"
-                           ),
-                           InlineKeyboardButton(text="•✰sᴜᴘᴘᴏʀᴛ✰•", url=f"https://t.me/love_birds_group"),
-                    ],[
-                           InlineKeyboardButton(
-                              text="•✯ᴏᴡɴᴇʀ✯•", url=f"https://t.me/BANNA_XD"
-                           ),
-                           InlineKeyboardButton(
-                              text="•✵ɢʀᴏᴜᴘ✵•", url=f"https://t.me./LOVE_BIRDS_123"
-                          ),
-                     ]
+                    InlineKeyboardButton(
+                            text="•♡︎📡𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡♡︎•",
+                            url=f"https://t.me/RYMOFFICIAL")
+               ],
+               [
+                    InlineKeyboardButton(
+                            text="•✰⏤͟͟͞͞x𝐃🥀| 𓆩 𝐂𝐎𝐃𝐄𝐑 𓆪✰•",
+                            url=f"https://t.me/LEGEND_CODER"),
+                            
+                    InlineKeyboardButton(
+                            text="•★🥀𝐌𝐨𝐯𝐢𝐞𝐬🥀★•",
+                            url=f"https://t.me/SonalModdingGod")
+               ],
+               [
+                        InlineKeyboardButton(
+                            text="•☆⭐𝐆𝐫𝐨𝐮𝐩⭐☆•",
+                            url=f"https://t.me/JaiHindChatting")
+                   
                 ]
-            )
+            ]
+        )
         except Exception as e:
             title = "NaN"
             thumb_name = "https://telegra.ph/file/9ae1b33912d9e5f38c353.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
+            [
                 [
-                    [
+                    InlineKeyboardButton(
+                            text="•♡︎📡𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡♡︎•",
+                            url=f"https://t.me/RYMOFFICIAL")
+               ],
+               [
+                    InlineKeyboardButton(
+                            text="•✰⏤͟͟͞͞x𝐃🥀| 𓆩 𝐂𝐎𝐃𝐄𝐑 𓆪✰•",
+                            url=f"https://t.me/LEGEND_CODER"),
+                            
+                    InlineKeyboardButton(
+                            text="•★🥀𝐌𝐨𝐯𝐢𝐞𝐬🥀★•",
+                            url=f"https://t.me/SonalModdingGod")
+               ],
+               [
                         InlineKeyboardButton(
-                            text="•★ᴄʜᴀɴɴᴇʟ★•", url=f"https://t.me/MISS_AARU_143"
-                        ),
-                        InlineKeyboardButton(text="•✰sᴜᴘᴘᴏʀᴛ✰•", url=f"https://t.me/love_birds_group"),
-                   ],[    
-                        InlineKeyboardButton(
-                            text="•✯ᴏᴡɴᴇʀ✯•", url=f"https://t.me/BANNA_XD"
-                        ),
-                        InlineKeyboardButton(
-                           text="•✵ɢʀᴏᴜᴘ✵•", url=f"https://t.me/LOVE_BIRDS_123"
-                        ),
-                    ]
+                            text="•☆⭐𝐆𝐫𝐨𝐮𝐩⭐☆•",
+                            url=f"https://t.me/JaiHindChatting")
+                   
                 ]
-            )
+            ]
+        )
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
                 f"❰ᴠɪᴅᴇᴏ❱ ʟᴏɴɢᴇʀ ᴛʜᴀɴ {DURATION_LIMIT} ᴍɪɴᴜᴛᴇs ᴀʀᴇɴ'ᴛ ᴀʟʟᴏᴡᴇᴅ ᴛᴏ ᴘʟᴀʏ ❤️🤞"
@@ -291,16 +312,23 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="•★ᴄʜᴀɴɴᴇʟ★•", url=f"https://t.me/MISS_AARU_143"
-                    ),
-                    InlineKeyboardButton(text="•✰sᴜᴘᴘᴏʀᴛ✰•", url=f"https://t.me/AARU_SUPPORT"),
-               ],[
+                            text="•♡︎📡𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡♡︎•",
+                            url=f"https://t.me/RYMOFFICIAL")
+               ],
+               [
                     InlineKeyboardButton(
-                       text="•✯ᴏᴡɴᴇʀ✯•", url=f"https://t.me/BANNA_XD"
-                    ),
+                            text="•✰⏤͟͟͞͞x𝐃🥀| 𓆩 𝐂𝐎𝐃𝐄𝐑 𓆪✰•",
+                            url=f"https://t.me/LEGEND_CODER"),
+                            
                     InlineKeyboardButton(
-                       text="•✵ɢʀᴏᴜᴘ✵•", url=f"https://t.me/LOVE_BIRDS_123"
-                    ),
+                            text="•★🥀𝐌𝐨𝐯𝐢𝐞𝐬🥀★•",
+                            url=f"https://t.me/SonalModdingGod")
+               ],
+               [
+                        InlineKeyboardButton(
+                            text="•☆⭐𝐆𝐫𝐨𝐮𝐩⭐☆•",
+                            url=f"https://t.me/JaiHindChatting")
+                   
                 ]
             ]
         )
