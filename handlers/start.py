@@ -25,21 +25,21 @@ async def start_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "•✯⭐ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ⭐✯•", url=f"https://t.me/MISS_AARU_X_ROBOT?startgroup=true"
+                        "•✯⭐ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ⭐✯•", url=f"https://t.me/BROKEN_MUSIC_ROBOT?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
                         "•★🥀sᴏᴜʀᴄᴇ🥀★•", url=f"https://github.com/BANNA-XD143/Aaru_Music"
                     ),
                     InlineKeyboardButton(
-                        "•✫❤️sᴜᴘᴘᴏʀᴛ❤️✫•", url=f"https://t.me/JaiHindChatting"
+                        "•✫❤️sᴜᴘᴘᴏʀᴛ❤️✫•", url=f"https://t.me/AARU_SUPPORT"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "•✵📡ᴄʜᴀɴɴᴇʟ📡✵•", url="https://t.me/RYMOFFICIAL"
+                        "•✵📡ᴄʜᴀɴɴᴇʟ📡✵•", url="https://t.me/MISS_AARU_143"
                     ),
                     InlineKeyboardButton(
-                        "•✞︎💥ᴅᴇᴠᴇʟᴏᴘᴇʀ💥✞︎︎︎•", url="https://t.me/LEGEND_CODER"
+                        "•✞︎💥ᴅᴇᴠᴇʟᴏᴘᴇʀ💥✞︎︎︎•", url="https://t.me/BANNA_XD"
                     )]
             ]
        ),
